@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+
+body {
+    display: flex;
+    padding: 4rem;
+    margin: 2rem;
+    font-size: 24px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(3, 7, 19);
+    color: rgb(17, 17, 17);
+}
+
+  
+  a {
+    font-size: .9rem;
+  }
+    
+  a:hover { 
+    color: #0c141a;
+  }
+  
+  #login-container {
+    background-color: #657986;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    
+    text-align: center;
+    margin-bottom: 3vh;
+  }
+  
+  /* formulário */
+  form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .9rem;
+  }
+  
+  input {
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  input:focus {
+    border-bottom: 2px solid #05185f;
+  }
+  
+  #forgot-pass {
+    display: block;
+    text-align: right;
+  }
+  
+  input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    height: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #030101;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #501818;
+    transition: .5s;
+  }
+  
+  

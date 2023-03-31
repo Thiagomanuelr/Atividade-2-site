@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    
+}
+
+body {
+    background-size: 100%;
+    background-color: #000102;
+}
+
+h1{
+    background-color: rgb(50, 209, 156);
+    border: 3px solid rgb(14, 14, 14); 
+    padding: 0.2rem;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-grid{
+    background-color: #e2e7ee;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    list-style: none;;
+}
+
+.banner{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    padding: 4rem;
+    background-image: linear-gradient(to right, #01050a, rgb(0, 46, 116));
+}
+
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.slogan a{
+    margin: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(110, 15, 15);
+    border: 3px solid rgb(7, 7, 7); 
+}
+
+.patrocinios{
+    display:flex;
+    padding: 2rem;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+#destaques{
+    background-image: linear-gradient(90deg, #211818, #0099ca);
+    color: aliceblue;
+  }
+  
+  
+.row{
+    background-color: rgb(8, 8, 8);
+    padding: 10px;
+    margin-top: -30px;
+    border-radius: 10px;
+  }
+  
+.container.titulo h3{ 
+    height: 70px;
+    display: flex;
+    font-family: "Arial";
+    font-size:40px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-shadow: #48688d 0.1em 0.1em 0.2em;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    padding: 1rem;
+  }
+  
+.titulo:hover h3{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+.card{
+    justify-content: center;
+    border: 10px;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+.col{
+    display: grid;
+    flex-direction: column;
+    padding: 2rem;
+    grid-template-columns: 0fr 0fr 1fr;
+  }
+  
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+.card .card-img-top{
+  height: 70%;
+  margin-top: 10px;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  }
+  
+.card-img-top:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+    
+  
+.card .card-body h5{
+    font-family:"Arial";
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+.card .card-body p{
+    font-family:"Arial";
+    text-align: center;
+  }
+  
+  
+.card-buy{
+    background-color: #700e0e;
+    border: #e2e2e2;
+    height: 40px;
+    width: 180px; 
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family:"Arial";
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  }
+  
+.card-buy:hover{
+    background-color: #861414;
+    transition: 0.5s;
+    transform: scale(1.2, 1.2);
+  }
+  
+
+footer{
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
+
+.paginas a{
+    display: flex;
+    padding: 0.4rem;
+    
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
+
+.redes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+    
+    
+}
